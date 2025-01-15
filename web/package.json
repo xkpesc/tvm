@@ -19,6 +19,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "prepare": "make",
     "prepwasm": "make && python tests/python/prepare_test_libs.py",
     "build": "rollup -c",
     "lint": "eslint -c .eslintrc.json .",
